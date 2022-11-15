@@ -9,3 +9,13 @@
 <div data-sly-list.item="${test}">
   <p>Book :<b>${item}</b></p>
 </div>
+
+<!-- Conditions Array -->
+<div data-sly-use.test="test.js"></div>
+
+<div data-sly-list.item="${test @ begin = 2, end = 8, step = 2}">
+  <p>Book index:#${itemList.index} count: #${itemList.count} :<b>${item}</b></p>
+</div>
+
+<!-- More Properties on List -->
+<!-- .middle .first . last .odd .even -->

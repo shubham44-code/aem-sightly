@@ -1,0 +1,11 @@
+Array Output
+Book :10
+Book :20
+Book :30
+Book :40
+
+Conditions Array Output
+Book index:#2 count: #3 :30
+Book index:#4 count: #5 :50
+Book index:#6 count: #7 :70
+Book index:#8 count: #9 :90
