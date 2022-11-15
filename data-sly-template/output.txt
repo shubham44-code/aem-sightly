@@ -1,0 +1,12 @@
+Output Ex 1
+Hello
+
+Output Ex 2
+Book : 10
+Subject : 10
+Book : 20
+Subject : 20
+Book : 30
+Subject : 30
+Book : 40
+Subject : 40

@@ -1,0 +1,11 @@
+<!-- Use and Call -->
+<div data-sly-use.maintemp="temp.html">
+  <sly data-sly-call="${maintemp.main}" />
+</div>
+
+<!-- Ex 2 -->
+<!-- Use and Call -->
+<div data-sly-use.test="test.js"></div>
+<div data-sly-use.books="temp.html">
+  <sly data-sly-call="${books.authorBooks @ books=test}" />
+</div>
